@@ -41,7 +41,7 @@
     "year": "0.2.1"
   },
   "devDependencies": {
-    "hela": "1.3.12",
+    "eslint": "4.9.0",
     "hela-config-tunnckocore": "2.0.0",
     "isobject": "3.0.1",
     "mukla": "0.4.9",

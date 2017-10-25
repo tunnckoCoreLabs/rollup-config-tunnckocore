@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "unused-ignores": [
+      "eslint",
       "babel-preset-env",
       "babel-plugin-unassert",
       "babel-plugin-transform-object-rest-spread",
