@@ -1,6 +1,6 @@
 {
   "extends": [
-    "tunnckocore"
+    "./node_modules/eslint-config-tunnckocore/index.js"
   ],
   "rules": {
     "import/no-dynamic-require": "off",
