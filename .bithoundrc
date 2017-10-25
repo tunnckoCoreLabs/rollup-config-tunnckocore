@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "unused-ignores": []
+    "unused-ignores": [
+      "babel-preset-env",
+      "babel-plugin-unassert",
+      "babel-plugin-transform-object-rest-spread",
+      "babel-plugin-external-helpers",
+      "babel-core"
+    ]
   }
 }
