@@ -39,10 +39,10 @@
     "year": "0.2.1"
   },
   "devDependencies": {
-    "hela": "*",
-    "hela-config-tunnckocore": "*",
+    "hela": "latest",
+    "hela-config-tunnckocore": "latest",
     "mukla": "0.4.9",
-    "rollup": "0.49.x"
+    "rollup": "0.50.0"
   },
   "keywords": ["automation"],
   "verb": {
