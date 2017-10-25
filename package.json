@@ -4,7 +4,7 @@
   "description": "A shareable config (via [rolldown][]) for [rollup][], used in @tunnckoCore org",
   "repository": "tunnckoCore/rollup-config-tunnckocore",
   "author": "Charlike Mike Reagent (https://charlike.online)",
-  "nspId": "todo",
+  "nspId": "f1cc63c1-abba-4394-86b0-2b588699a0af",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
   "scripts": {
@@ -74,7 +74,11 @@
     "lint": {
       "reflinks": true
     },
-    "reflinks": []
+    "reflinks": [
+      "hela",
+      "rolldown",
+      "rollup"
+    ]
   },
   "release": {
     "analyzeCommits": "simple-commit-message"
