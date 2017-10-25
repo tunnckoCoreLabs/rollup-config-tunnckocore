@@ -22,7 +22,7 @@
     "yarn": ">=1"
   },
   "files": [
-    "dist/"
+    "src/"
   ],
   "dependencies": {
     "arrayify": "1.0.0",
