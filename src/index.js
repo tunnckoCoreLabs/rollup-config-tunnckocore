@@ -15,6 +15,8 @@ const commonjsPlugin = require('rollup-plugin-commonjs');
 const gzipPlugin = require('./gzip-plugin.js');
 
 const pkg = require(path.join(process.cwd(), 'package.json'));
+
+// istanbul ignore next
 const licenseYear = pkg.licenseStart || year();
 
 const preamble = `/**
@@ -45,8 +47,8 @@ module.exports = function rollupConfig (opts) {
 
   let resolve = null;
   let external = []
-    .concat(Object.keys(pkg.dependencies || {}))
-    .concat(Object.keys(pkg.devDependencies || {}))
+    .concat(Object.keys(pkg.dependencies))
+    .concat(Object.keys(pkg.devDependencies))
     .concat(builtins);
 
   if (options.resolve.length) {
