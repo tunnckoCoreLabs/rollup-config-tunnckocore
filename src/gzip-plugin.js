@@ -13,7 +13,7 @@ module.exports = function gzip (options) {
   const opts = Object.assign({ minSize: 0 }, options);
 
   return {
-    name: 'gzip',
+    name: 'just-gzip',
 
     onwrite: (details) => {
       // fallbacks for Rollup < 0.48
