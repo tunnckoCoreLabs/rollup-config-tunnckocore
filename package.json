@@ -30,7 +30,7 @@
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-plugin-unassert": "2.1.2",
     "babel-preset-env": "1.6.1",
-    "builtin-modules": "1.1.1",
+    "builtin-modules": "2.0.0",
     "pify": "3.0.0",
     "rollup-plugin-babel": "3.0.2",
     "rollup-plugin-commonjs": "8.2.6",
