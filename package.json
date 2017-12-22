@@ -43,7 +43,7 @@
     "hela-config-tunnckocore": "2.2.28",
     "isobject": "3.0.1",
     "mukla": "0.4.9",
-    "rollup": "0.52.3"
+    "rollup": "0.53.0"
   },
   "keywords": [
     "automation"
