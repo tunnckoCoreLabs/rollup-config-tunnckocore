@@ -3155,9 +3155,9 @@ typescript@^2.5.1:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
-uglify-es@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.2.tgz#2401df8be2a433314523753f28810793a40c5462"
+uglify-es@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.3.tgz#095f5314d2a5d27e215390e50fa90751473dac2f"
   dependencies:
     commander "~2.12.1"
     source-map "~0.6.1"
