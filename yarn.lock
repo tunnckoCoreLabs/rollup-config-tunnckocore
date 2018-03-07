@@ -77,7 +77,7 @@ acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-acorn@^5.2.1, acorn@^5.4.0:
+acorn@^5.4.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.4.1.tgz#fdc58d9d17f4a4e98d102ded826a9b9759125102"
 
@@ -216,12 +216,6 @@ arrify@^1.0.0, arrify@^1.0.1:
 asap@^2.0.0, asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
-
-asky@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/asky/-/asky-0.2.2.tgz#f3faa91ce4b34354a3ce2a954d18062302a07333"
-  dependencies:
-    p-map-series "1.0.0"
 
 ast-types-flow@0.0.7:
   version "0.0.7"
@@ -880,6 +874,10 @@ cliui@^4.0.0:
     strip-ansi "^4.0.0"
     wrap-ansi "^2.0.0"
 
+clorox@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/clorox/-/clorox-1.0.3.tgz#6fa63653f280c33d69f548fb14d239ddcfa1590d"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -1315,7 +1313,7 @@ estree-walker@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.3.1.tgz#e6b1a51cf7292524e7237c312e5fe6660c1ce1aa"
 
-estree-walker@^0.5.0, estree-walker@^0.5.1:
+estree-walker@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.5.1.tgz#64fc375053abc6f57d73e9bd2f004644ad3c5854"
 
@@ -1345,6 +1343,18 @@ execa@0.8.0:
 execa@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
+  dependencies:
+    cross-spawn "^5.0.1"
+    get-stream "^3.0.0"
+    is-stream "^1.1.0"
+    npm-run-path "^2.0.0"
+    p-finally "^1.0.0"
+    signal-exit "^3.0.0"
+    strip-eof "^1.0.0"
+
+execa@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-0.9.0.tgz#adb7ce62cf985071f60580deb4a88b9e34712d01"
   dependencies:
     cross-spawn "^5.0.1"
     get-stream "^3.0.0"
@@ -1533,12 +1543,13 @@ get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
-gitcommit@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/gitcommit/-/gitcommit-0.2.4.tgz#39a23e1f58b8ffb1602a5c5f65570b93418785ee"
+gitcommit@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/gitcommit/-/gitcommit-1.0.6.tgz#c369e6859eb18675f95b6b444583ba951cf9bdc0"
   dependencies:
-    asky "0.2.2"
-    execa "0.8.0"
+    execa "^0.9.0"
+    mri "^1.1.0"
+    prompts terkelg/prompts
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -1633,15 +1644,15 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.0.2"
 
-hela-config-tunnckocore@3.0.18:
-  version "3.0.18"
-  resolved "https://registry.yarnpkg.com/hela-config-tunnckocore/-/hela-config-tunnckocore-3.0.18.tgz#33b2d11e7eac66508672d33679d1f9ff3dcfe0bc"
+hela-config-tunnckocore@3.0.20:
+  version "3.0.20"
+  resolved "https://registry.yarnpkg.com/hela-config-tunnckocore/-/hela-config-tunnckocore-3.0.20.tgz#2bdeb7cd4b7259ff1b17ff1d5e1841d5a13da7d4"
   dependencies:
     "@tunnckocore/pretty-config" "^0.5.1"
     builtin-modules "^2.0.0"
     eslint "^4.17.0"
     eslint-config-tunnckocore "^1.0.1"
-    gitcommit "^0.2.4"
+    gitcommit "^1.0.0"
     is-ci "^1.1.0"
     isobject "^3.0.1"
     loud-rejection "^1.6.0"
@@ -1651,7 +1662,7 @@ hela-config-tunnckocore@3.0.18:
     p-map "^1.2.0"
     pify "^3.0.0"
     rollup "^0.56.0"
-    rollup-plugin-commonjs "^8.3.0"
+    rollup-plugin-commonjs "^9.0.0"
     time-stamp "^2.0.0"
 
 home-or-tmp@^2.0.0:
@@ -2213,6 +2224,10 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+mri@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.0.tgz#5c0a3f29c8ccffbbb1ec941dcec09d71fa32f36a"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -2569,6 +2584,13 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
+"prompts@github:terkelg/prompts":
+  version "0.1.4"
+  resolved "https://codeload.github.com/terkelg/prompts/tar.gz/24f1cc0cb4b753ebc5ec2887da6941c462c9b399"
+  dependencies:
+    clorox "^1.0.1"
+    sisteransi "^0.1.0"
+
 prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
@@ -2737,7 +2759,7 @@ resolve-from@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
 
-resolve@^1.1.6, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0:
+resolve@^1.1.6, resolve@^1.3.3, resolve@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
   dependencies:
@@ -2768,23 +2790,13 @@ rollup-plugin-babel@3.0.3:
   dependencies:
     rollup-pluginutils "^1.5.0"
 
-rollup-plugin-commonjs@9.0.0:
+rollup-plugin-commonjs@9.0.0, rollup-plugin-commonjs@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-9.0.0.tgz#9118e9041b67cdd2a6d8c59dda6349556dce3d0c"
   dependencies:
     estree-walker "^0.5.1"
     magic-string "^0.22.4"
     resolve "^1.5.0"
-    rollup-pluginutils "^2.0.1"
-
-rollup-plugin-commonjs@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.3.0.tgz#91b4ba18f340951e39ed7b1901f377a80ab3f9c3"
-  dependencies:
-    acorn "^5.2.1"
-    estree-walker "^0.5.0"
-    magic-string "^0.22.4"
-    resolve "^1.4.0"
     rollup-pluginutils "^2.0.1"
 
 rollup-plugin-node-resolve@3.0.3:
@@ -2874,6 +2886,10 @@ shebang-regex@^1.0.0:
 signal-exit@^3.0.0, signal-exit@^3.0.1, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+sisteransi@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-0.1.0.tgz#2e6706ac427019b84e60f751d588d87920484f25"
 
 slash@^1.0.0:
   version "1.0.0"
