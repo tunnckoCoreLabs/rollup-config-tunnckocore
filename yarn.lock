@@ -1670,9 +1670,9 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.0.2"
 
-hela-config-tunnckocore@3.0.20:
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/hela-config-tunnckocore/-/hela-config-tunnckocore-3.0.20.tgz#2bdeb7cd4b7259ff1b17ff1d5e1841d5a13da7d4"
+hela-config-tunnckocore@3.0.21:
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/hela-config-tunnckocore/-/hela-config-tunnckocore-3.0.21.tgz#8af85749cd3fb32252ce9f8d3560341ee7cfbbd8"
   dependencies:
     "@tunnckocore/pretty-config" "^0.5.1"
     builtin-modules "^2.0.0"
@@ -1687,7 +1687,7 @@ hela-config-tunnckocore@3.0.20:
     p-is-promise "^1.1.0"
     p-map "^1.2.0"
     pify "^3.0.0"
-    rollup "^0.56.0"
+    rollup "^0.57.0"
     rollup-plugin-commonjs "^9.0.0"
     time-stamp "^2.0.0"
 
@@ -2897,7 +2897,7 @@ rollup-pluginutils@^2.0.1:
     estree-walker "^0.3.0"
     micromatch "^2.3.11"
 
-rollup@0.57.0:
+rollup@0.57.0, rollup@^0.57.0:
   version "0.57.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.57.0.tgz#0a57884477175592efe0c8bfc408ea12aa4c0f21"
   dependencies:
@@ -2912,10 +2912,6 @@ rollup@0.57.0:
     rollup-pluginutils "^2.0.1"
     signal-exit "^3.0.2"
     sourcemap-codec "^1.4.1"
-
-rollup@^0.56.0:
-  version "0.56.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.56.1.tgz#87dd6295103da48c2376872836273785ffe0def3"
 
 run-async@^2.2.0:
   version "2.3.0"
