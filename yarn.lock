@@ -801,7 +801,7 @@ buf-compare@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buf-compare/-/buf-compare-1.0.1.tgz#fef28da8b8113a0a0db4430b0b6467b69730b34a"
 
-builtin-modules@3.0.0:
+builtin-modules@3.0.0, builtin-modules@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.0.0.tgz#1e587d44b006620d90286cc7a9238bbc6129cab1"
 
@@ -1694,12 +1694,12 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.0.2"
 
-hela-config-tunnckocore@3.0.23:
-  version "3.0.23"
-  resolved "https://registry.yarnpkg.com/hela-config-tunnckocore/-/hela-config-tunnckocore-3.0.23.tgz#9f1bf78357c007189903bdd1bff0232bb5ebcc4a"
+hela-config-tunnckocore@3.0.24:
+  version "3.0.24"
+  resolved "https://registry.yarnpkg.com/hela-config-tunnckocore/-/hela-config-tunnckocore-3.0.24.tgz#ca40971ed872871239d29651ad67b8683bcb6230"
   dependencies:
     "@tunnckocore/pretty-config" "^0.5.1"
-    builtin-modules "^2.0.0"
+    builtin-modules "^3.0.0"
     eslint "^4.17.0"
     eslint-config-tunnckocore "^1.0.1"
     gitcommit "^1.0.0"
