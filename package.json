@@ -40,7 +40,7 @@
     "year": "0.2.1"
   },
   "devDependencies": {
-    "hela-config-tunnckocore": "3.0.23",
+    "hela-config-tunnckocore": "3.0.24",
     "isobject": "3.0.1",
     "mukla": "0.4.9",
     "rollup": "0.59.3"
