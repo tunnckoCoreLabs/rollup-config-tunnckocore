@@ -790,9 +790,9 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-plugin-unassert@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-unassert/-/babel-plugin-unassert-3.0.0.tgz#5bd6a97cc1de8f0207533d9db6121b8165b4d3b4"
+babel-plugin-unassert@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-unassert/-/babel-plugin-unassert-3.0.1.tgz#cba17c38249a0bb26a72eb3793e0b24e29fcb7cd"
 
 babel-preset-env@1.7.0:
   version "1.7.0"
