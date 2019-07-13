@@ -33,7 +33,7 @@
     "builtin-modules": "3.1.0",
     "pify": "4.0.1",
     "rollup-plugin-babel": "4.3.2",
-    "rollup-plugin-commonjs": "9.2.0",
+    "rollup-plugin-commonjs": "10.0.1",
     "rollup-plugin-node-resolve": "4.0.0",
     "rollup-plugin-uglify": "6.0.2",
     "uglify-es": "3.3.10",
